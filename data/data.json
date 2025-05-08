@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "player1",
+      "password": "player1",
+      "role": "player",
+      "totalScore": 0
+    },
+    {
+      "id": 2,
+      "username": "player2",
+      "password": "player2",
+      "role": "player",
+      "totalScore": 0
+    },
+    {
+      "id": 3,
+      "username": "player3",
+      "password": "player3",
+      "role": "player",
+      "totalScore": 0
+    },
+    {
+      "id": 4,
+      "username": "player4",
+      "password": "player4",
+      "role": "player",
+      "totalScore": 0
+    },
+    {
+      "id": 5,
+      "username": "player5",
+      "password": "player5",
+      "role": "player",
+      "totalScore": 0
+    },
+    {
+      "id": 6,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "DOOM: The Dark Ages",
+      "coverArt": "/images/doom.jpg",
+      "releaseDate": "2025-06-15",
+      "released": true,
+      "actualScore": 84,
+      "predictions": [
+        {
+          "userId": 1,
+          "username": "player1",
+          "score": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Elden Ring: Nightreign",
+      "coverArt": "/images/elden-ring.jpg",
+      "releaseDate": "2025-07-22",
+      "released": false,
+      "actualScore": null,
+      "predictions": []
+    }
+  ]
+}
