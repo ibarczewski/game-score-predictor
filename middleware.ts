@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-export function middleware(request) {
+export function middleware(request: any) {
   const { pathname } = request.nextUrl;
 
   // Get the user token from cookies
